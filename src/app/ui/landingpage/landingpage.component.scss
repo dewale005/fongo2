@@ -1,0 +1,103 @@
+.pad {
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+}
+
+.main {
+  background-image: url(../../../assets/images/bg1.jpg);
+  background-position: right;
+}
+
+.info {
+  margin: 0;
+  font-size: 22px;
+  line-height: 32px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  color: #000;
+  font-family: Roboto;
+}
+
+.carousel {
+  height: 670px !important;
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 50px !important;
+  }
+
+  div#cdk-overlay-0 {
+    width: 70% !important;
+  }
+}
+
+.title {
+  font-size: 65px;
+  font-weight: bolder;
+  font-family: Open Sans;
+  line-height: 68px;
+  color: #fff;
+  margin: 0;
+  span {
+    color: #000;
+  }
+}
+
+nav {
+  box-shadow: none;
+  background: transparent;
+}
+
+.carousel .carousel-item {
+  visibility: inherit !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-shadow {
+  text-shadow: 5px 4px 9px rgba(0, 0, 0, 0.31);
+}
+
+.carousel-inner {
+  position: initial !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.body {
+  margin-top: 100px;
+}
+
+.contain {
+  padding: 20px 52px;
+}
+
+.btn,
+.btn-large,
+.btn-small {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
